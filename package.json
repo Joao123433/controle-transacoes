@@ -1,0 +1,19 @@
+{
+  "name": "controleestoque",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc-watch": "tsc --watch",
+    "json-server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}

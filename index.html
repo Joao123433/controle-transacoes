@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/style/index.css">
+  <script src="public/dist/main.js" defer></script>
+  <title>Controle de Transações</title>
+</head>
+<body>
+  <main>
+    <section id="section-form">
+      <form>
+        <h1>Nova Transação</h2>
+        <div>
+          <input type="hidden" id="id">
+          <label for="name">Nome:</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="value">Valor:</label>
+          <input type="text" id="value">
+        </div>
+        <button id="btnSave">Salvar</button>
+      </form>
+    </section>
+
+    <section id="section-info">
+      <h1 id="saldo">Saldo: R$0</h1>
+      <h1>Histórico de Transação</h1>
+      <section id="transacoes"></section>
+    </section>
+  </main>
+</body>
+</html>
